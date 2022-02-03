@@ -27,7 +27,7 @@ game:GetService("ReplicatedStorage").Remotes.Action:FireServer(unpack(args))
 while true do
     wait();
     repeat wait() until game.Players.LocalPlayer.Character:FindFirstChild("ShotAccuracy")
-    if game.Players.LocalPlayer.Character:FindFirstChild("ShotAccuracy").Value >= 0.825 then
+    if game.Players.LocalPlayer.Character:FindFirstChild("ShotAccuracy").Value >= 0.815 then
         game:GetService("ReplicatedStorage").Remotes:FindFirstChild("Action"):FireServer("Shoot", {false})
     end
 end
