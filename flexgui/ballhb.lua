@@ -2,7 +2,7 @@ Instance.new("BindableFunction").OnInvoke = function(a)
 end
 game.StarterGui:SetCore("SendNotification", {
   Title = "RB World 3 Ball Extender",
-  Text = "By Flex and harlow and robo man.",
+  Text = "By flex harlow robo.",
   Icon = "",
   Duration = 5,
   Callback = Instance.new("BindableFunction")
