@@ -18,7 +18,7 @@ game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(a)
   end
 end)
 game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(a)
-  if a == "b" then
+  if a == "f" then
     for fg, fh in pairs((game.Workspace:GetDescendants())) do
       if fh.Name == "Basketball" then
         fh.Size = Vector3.new(1.3, 1.3, 1.3)
