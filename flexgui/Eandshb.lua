@@ -12,7 +12,6 @@ local args = {
         [1] = true,
         [2] = {
             ["Vel"] = Vector3.new(0, 0, 0),
-            ["Hoop"] = workspace._Hoop2,
             ["Ball"] = workspace.Basketball
         }
     }
