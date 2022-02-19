@@ -5,7 +5,7 @@ local userInputService = game:GetService("UserInputService")
 
 userInputService.InputBegan:Connect(function(input, gameProcessedEvent)
     if input.UserInputType == Enum.UserInputType.Keyboard then 
-if input.KeyCode == Enum.KeyCode.T then
+if input.KeyCode == Enum.KeyCode.Q then
 local args = {
     [1] = "Shoot",
     [2] = {
